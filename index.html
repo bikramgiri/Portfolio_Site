@@ -4,35 +4,41 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Animated Portfolio Website Template</title>
+      <title>Portfolio</title>
       <link rel="stylesheet" href="./style.css">
-      <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"> -->
       <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel= "stylesheet">
 </head>
 <body>
       <header class="header">
             <a href="#" class="logo">Portfolio</a>
+            
+            <i class="bx bx-menu" id="menu-icon"></i>
 
             <nav class="navbar">
-                  <a href="#home" style="--i:1;" class="active">Home</a>
-                  <a href="#about" style="--i:2;">About</a>
-                  <a href="#services" style="--i:3;">Services</a>
-                  <a href="#portfolio" style="--i:4;">Portfolio</a>
-                  <a href="#contact" style="--i:5;">Contact</a>
+                  <a href="#home" class="active">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#services">Services</a>
+                  <a href="#portfolio">Portfolio</a>
+                  <a href="#contact">Contact</a>
             </nav>
       </header>
 
-      <section class="home">
+ <!-- Home section Design -->
+
+      <section class="home" id="home">
             <div class="home-content">
                   <h3>Hello, It's Me</h3>
                   <h1>John Kendric</h1>
                   <h3>And I'm a <span class="multiple-text"></span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat expedita earum ullam! Sint, beatae?</p>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad officia 
+                        similique at aperiam <br> corporis nihil eius eum magni assumenda? 
+                        Veritatis, ut laudantium hic voluptatem possimus <br> deleniti doloribus 
+                        dolore saepe excepturi corrupti, id, consequatur explicabo iste!</p>
                   <div class="social-media">
-                        <a href="#" style="--i:7;"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" style="--i:8;"><i class="bx bxl-twitter" ></i></a>
-                        <a href="#" style="--i:9;"><i class="bx bxl-instagram-alt" ></i></a>
-                        <a href="#" style="--i:10;"><i class="bx bxl-linkedin" ></i></a>
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-twitter" ></i></a>
+                        <a href="#"><i class="bx bxl-instagram-alt" ></i></a>
+                        <a href="#"><i class="bx bxl-linkedin" ></i></a>
                   </div>
                   <a href="#" class="btn">Download CV</a>
             </div>
@@ -40,9 +46,34 @@
             <div class="home-img">
                   <img src="./img/home.png" alt="">
             </div>
-
       </section>
-      
+
+
+      <!-- about section design -->
+
+      <section class="about" id="about">
+            <div class="about-img">
+                  <img src="./img/about.png" alt="">
+            </div>
+
+            <div class="about-content">
+                  <h2 class="heading">About <span>Me</span></h2>
+                  <h3>Frontend Developer</h3>
+                  <p>Doloribus distinctio veritatis vitae enim, velit deleniti expedita laboriosam recusandae ad inventore <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione sit quo tenetur ex! <br> 
+                  Doloribus distinctio veritatis vitae enim, velit deleniti expedita laboriosam recusandae ad inventore <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione sit quo tenetur ex! <br> 
+                  Doloribus distinctio veritatis vitae enim, velit deleniti expedita laboriosam recusandae ad inventore <br>
+
+                  magni vel consequatur aspernatur libero mollitia soluta magnam deserunt nisi? Saepe facilis quia eveniet</p>
+                  
+                  <a href="#" class="btn">Read More</a>
+            </div>
+      </section>
+
+
+      <!-- custom js -->
+
       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
       <script src="./script.js"></script>
       
